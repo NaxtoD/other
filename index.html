@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Roboto:wght@300;400&family=Trispace:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header__title-container">
+            <h1>&ltMy Notes/&gt</h1>
+        </div>
+        <div class="header__text-container">
+            <p>En palabras simples, este espacio es para guardar todo lo que vaya aprendiendo sobre desarrollo web.</p>
+        </div>
+        <nav class="header__nav">
+            <input list="topics" placeholder="Choose The Topic">
+            <datalist id="topics">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+            </datalist>
+        </nav>
+    </header>
+    <main>
+        <div class="main__title-decoration">
+            <p>&ltThemes/&gt</p>
+        </div>
+        <section class="main__principal-content">
+            <article class="principal-content__themes">
+                <span>&lthtml&gt</span>
+                <span class="labels">&ltp&gt</span>
+                <p class="text">
+                    HTML5 Es la quinta edición de un lenguaje de marcado de hipertexto,
+                    que tiene la funcionalidad de servir como la esctructura base
+                    de nuestra pagina web.
+                </p>
+                <span>&lt/p&gt</span>
+                <p class="labels">
+                    &lta href="#"&gt<a href="#">Más sobre esto</a>&lt/a&gt
+                </p>
+                <span class="labels">&lt/html&gt</span>
+            </article>
+            <article class="principal-content__themes" id="css">
+                <span>&lthtml&gt</span>
+                <span class="labels--css">&ltp&gt</span>
+                <p class="text-css">
+                    CSS3 Es la quinta edición de un lenguaje de marcado de hipertexto,
+                    que tiene la funcionalidad de servir como la esctructura base
+                    de nuestra pagina web.
+                </p>
+                <span class="labels--css">&lt/p&gt</span>
+                <p class="labels--css">&lta href="#"&gt<a href="#" class="text--css" id="text-css">Más sobre esto</a>&lt/a&gt</p>
+                <span>&lt/html&gt</span>
+            </article>
+            <article class="principal-content__themes" id="javascript">
+                <span>&lthtml&gt</span>
+                <span class="labels--javascript">&ltp&gt</span>
+                <p class="text-javascript">
+                    JavaScript Es la quinta edición de un lenguaje de marcado de hipertexto,
+                    que tiene la funcionalidad de servir como la esctructura base
+                    de nuestra pagina web.
+                </p>
+                <span class="labels--javascript">&lt/p&gt</span>
+                <p class="labels--javascript">&lta href="#"&gt<a href="#" class="text--javascript" id="text-javascript">Más sobre esto</a>&lt/a&gt</p>
+                <span>&lt/html&gt</span>
+            </article>
+        </section>
+        <section class="main__projects-section">
+            <div class="projects-section__title-decoration">
+                <h3>&ltProjects/&gt</h3>
+            </div>
+            <div class="on-process-item">
+                <p>En proceso :C</p>
+            </div>
+        </section>
+    </main>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>
