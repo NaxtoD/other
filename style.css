@@ -21,6 +21,7 @@ header {
     position: relative;
     width: 100%;
     min-width: 320px;
+    max-width: 425px;
     height: auto;
     margin-bottom: 45px;
 }
@@ -75,11 +76,10 @@ header {
 }
 
 
-
-
 main {
     width: 100%;
     min-width: 320px;
+    max-width: 425px;
     background-color: #1E282D;
     height: auto;
     padding-top: 30px;
@@ -190,8 +190,8 @@ main {
 
 .main__projects-section {
     width: 100%;
-    height: 250px;
-    background-color: #F0E6D2;
+    height: 500px;
+    background-color: rgb(20, 16, 16);
     padding-top: 30px;
 }
 
@@ -209,13 +209,74 @@ main {
     color: #A09B8C;
 }
 
-.on-process-item {
-    width: 80%;
+.projects-section__main-container {
+    width: 90%;
+    height: auto;
     margin: 0 auto;
-    margin-top: 50px;
-    padding: 2px;
-    height: 25px;
-    background-color: red;
-    color: white;
+}
+
+.project-container {
+    width: 98%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    
+    border-radius: 10px;
+    color: grey;
+    font-size: 1.2rem;
     text-align: center;
+    font-size: 1.6rem;
+}
+
+.project__img-container {
+    width: 188px;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    
+}
+
+.project__img-container img {
+    min-width: 180px;
+    max-width: 188px;
+    height: 100%;
+    border-radius: 10px;
+    image-rendering:pixelated;
+    border: 2px solid grey;
+}
+
+.project-name-container {
+
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: black;
+    border: grey solid 1px;
+    border-radius: 5px;
+}
+
+.project-container a{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(min-width: 425px){
+    header {
+        margin: 0 auto;
+        padding: 20px;
+        padding-bottom: 30px;
+        background-color: #0A1428;
+    }
+
+    main {
+        margin: 0 auto;
+    }
+    
+    body {
+        background-color: black;
+    }
 }
